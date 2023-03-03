@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Garden", "Garden\Garden.csproj", "{C5D66B70-4650-400B-80F2-1F3C93324222}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Garden.Tests", "Garden.Tests\Garden.Tests.csproj", "{304EF017-A79C-4512-AED3-9534904A7DFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5D66B70-4650-400B-80F2-1F3C93324222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5D66B70-4650-400B-80F2-1F3C93324222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5D66B70-4650-400B-80F2-1F3C93324222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5D66B70-4650-400B-80F2-1F3C93324222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{304EF017-A79C-4512-AED3-9534904A7DFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{304EF017-A79C-4512-AED3-9534904A7DFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{304EF017-A79C-4512-AED3-9534904A7DFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{304EF017-A79C-4512-AED3-9534904A7DFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F77FE6D-C6CB-4072-B337-AAACDFB5FC77}
+	EndGlobalSection
+EndGlobal
