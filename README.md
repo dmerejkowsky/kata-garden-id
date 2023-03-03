@@ -1,21 +1,21 @@
-# The Garden Id Kata
+# Solution - contains spoilers
 
-Suppose you are writing a web service that handles various operations on Garden.
+Various ways:
+* Return a string with more details
+* Return an error code
+* Log the problem
+* Throw an exception
 
-You are going to be called with a "garden ID", a string.
 
-Your job is to make sure the ID is valid:
+Value object: create a `GardenId` type and move the check in the constructor,
+for instance:
 
-* It has to be of length 7
-* It must only contains digits
+```python
+class GardenId:
+    def __init__(self, value):
+        check_is_valid(value)
+        self._value = value
 
-You can look at the existing tests to see examples of both valid and invalid ids.
-
-You may have realized that returning a boolean in the method does not give the caller
-any information as to *why* the value was rejected.
-
-## Instructions
-
-* Find at least 3 ways you return more information to the user
-* Familiarize yourself on the Value Object concept and implement it
-* Reflect on what you just did
+    def value(self):
+        return self._value
+```
